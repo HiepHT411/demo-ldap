@@ -1,0 +1,14 @@
+dn: ou=users,dc=hiephoang,dc=com
+objectClass: organizationalUnit
+ou: users
+
+dn: uid=hiep,ou=users,dc=hiephoang,dc=com
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Hoang Tuan Hiep
+sn: tuan
+uid: hiep
+userPassword: {SSHA}29UYpw+ILGvR5XO5jKIHJ6QAjouGLM7A
+mail: hiephoang1@hiephoang.com
