@@ -1,14 +1,18 @@
 dn: ou=users,dc=hiephoang,dc=com
-objectClass: organizationalUnit
+objectclass: organizationalUnit
+objectclass: top
 ou: users
 
 dn: uid=hiep,ou=users,dc=hiephoang,dc=com
-objectclass: top
-objectclass: person
-objectclass: organizationalPerson
+cn: Hiep Hoang
+gidnumber: 500
+givenname: Hiep
+homedirectory: /home/users/hiep
 objectclass: inetOrgPerson
-cn: Hoang Tuan Hiep
-sn: tuan
+objectclass: posixAccount
+objectclass: top
+sn: Hoang
 uid: hiep
+uidnumber: 1000
 userPassword: {SSHA}29UYpw+ILGvR5XO5jKIHJ6QAjouGLM7A
 mail: hiephoang1@hiephoang.com
